@@ -24,12 +24,15 @@ export default class About extends Component {
                   <p className="address">
                     <span>Injo Baik</span>
                     <br />
-                    <span>anyone@website.com</span>
+                    <span>baikinjo.28@gmail.com</span>
                   </p>
                 </div>
                 <div className="columns download">
                   <p>
-                    <a href="#" className="button">
+                    <a
+                      href="https://drive.google.com/open?id=1WP9QjrnCMT1ByUXjiWsTWB0wzqKJkbzx"
+                      className="button"
+                    >
                       <i className="fa fa-download" />
                       Download Resume
                     </a>
