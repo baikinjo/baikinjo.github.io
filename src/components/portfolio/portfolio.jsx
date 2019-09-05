@@ -55,9 +55,8 @@ export default class Portfolio extends Component {
                 </span>
               </div>
               <div className='link-box'>
-                <a href='https://expensify-baik.herokuapp.com/dashboard'>
-                  Go to App
-                </a>
+                <a href='https://expensify-baik.herokuapp.com'>Go to App</a>
+                &nbsp;&nbsp;&nbsp;&nbsp;
                 <a href='https://github.com/baikinjo/expensify'>Source Code</a>
                 <a className='popup-modal-dismiss'>Close</a>
               </div>
