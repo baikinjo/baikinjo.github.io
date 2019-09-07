@@ -347,6 +347,10 @@ ul#nav li.current a {
   margin-top: 6px;
 }
 
+#resume .point li {
+  list-style-type: square;
+}
+
 /*----------------------------------------------*/
 /*	Skill Bars
 /*----------------------------------------------*/
@@ -639,6 +643,7 @@ ul#nav li.current a {
 
 .portfolio-item .item-wrap img {
   vertical-align: bottom;
+  height: 180px;
 }
 
 .portfolio-item .portfolio-item-meta {

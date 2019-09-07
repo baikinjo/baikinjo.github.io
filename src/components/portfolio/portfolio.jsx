@@ -29,6 +29,23 @@ export default class Portfolio extends Component {
                   </div>
                 </div>{' '}
                 {/* item end */}
+                <div className='columns portfolio-item'>
+                  <div className='item-wrap'>
+                    <a href='#modal-02' title>
+                      <img alt='' src='images/vancity.png' />
+                      <div className='overlay'>
+                        <div className='portfolio-item-meta'>
+                          <h5>Vancity</h5>
+                          <p>Web Application</p>
+                        </div>
+                      </div>
+                      <div className='link-icon'>
+                        <i className='icon-plus' />
+                      </div>
+                    </a>
+                  </div>
+                </div>{' '}
+                {/* item end */}
               </div>{' '}
               {/* portfolio-wrapper end */}
             </div>{' '}
@@ -55,9 +72,36 @@ export default class Portfolio extends Component {
                 </span>
               </div>
               <div className='link-box'>
-                <a href='https://expensify-baik.herokuapp.com'>Go to App</a>
+                <a href='https://expensify-baik.herokuapp.com'>Live App</a>
                 &nbsp;&nbsp;&nbsp;&nbsp;
-                <a href='https://github.com/baikinjo/expensify'>Source Code</a>
+                <a href='https://github.com/baikinjo/expensify'>Code</a>
+                <a className='popup-modal-dismiss'>Close</a>
+              </div>
+            </div>
+            {/* modal-01 End */}
+            <div id='modal-02' className='popup-modal mfp-hide'>
+              <img
+                className='scale-with-grid'
+                src='images/vancity.png'
+                alt=''
+              />
+              <div className='description-box'>
+                <h4>Expensify</h4>
+                <p>
+                  Mock web shopping site contains various collections with
+                  multiple items. Supports Google Account login or sign up with
+                  email and password. Stripe test payment is implemented, mobile
+                  friendly web.
+                </p>
+                <span className='categories'>
+                  <i className='fa fa-tag' />
+                  React, Redux, Firebase, Styled Components, Stripe
+                </span>
+              </div>
+              <div className='link-box'>
+                <a href='https://vancity-baik.herokuapp.com'>Live App</a>
+                &nbsp;&nbsp;&nbsp;&nbsp;
+                <a href='https://github.com/baikinjo/vancity'>Code</a>
                 <a className='popup-modal-dismiss'>Close</a>
               </div>
             </div>
